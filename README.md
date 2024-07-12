@@ -1,7 +1,3 @@
-Certainly! Here's your formatted README with corrected spelling and grammar:
-
----
-
 # PlannerPulse
 
 A todo application to manage daily tasks.
