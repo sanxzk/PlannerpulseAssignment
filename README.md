@@ -28,117 +28,29 @@ Visit the [PlannerPulse Demo](https://plannerpulse-assignment.vercel.app/) to se
 4. Open your browser and go to `http://localhost:3000/` to view the application.
 
 ## Screenshots
-<style>
-  .mobile-container, .tablet-container, .web-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: center;
-    margin-top: 20px;
-  }
-  .mobile-container>div{
-     width: 25%; 
-  }
-  .tablet-container>div, .web-container>div{
-    width: 40%;
-    }
-
-  .gallery-item {
-    border: 1px solid #ccc;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    overflow: hidden;
-  }
-
-  .gallery-item img {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-</style>
 
 ### Mobile View
 
-<div class="mobile-container">
-  <div class="gallery-item">
-    <img src="./src/assets/readme/phone_1.jpg" alt="Mobile View 1">
-  </div>
-  <div class="gallery-item">
-    <img src="./src/assets/readme/phone_2.jpg" alt="Mobile View 2">
-  </div>
-  <div class="gallery-item">
-    <img src="./src/assets/readme/phone_3.jpg" alt="Mobile View 3">
-  </div>
-  <div class="gallery-item">
-    <img src="./src/assets/readme/phone_4.jpg" alt="Mobile View 4">
-  </div>
-  <div class="gallery-item">
-    <img src="./src/assets/readme/phone_5.jpg" alt="Mobile View 5">
-  </div>
-  <div class="gallery-item">
-    <img src="./src/assets/readme/phone_6.jpg" alt="Mobile View 6">
-  </div>
-  <div class="gallery-item">
-    <img src="./src/assets/readme/phone_7.jpg" alt="Mobile View 7">
-  </div>
-  <div class="gallery-item">
-    <img src="./src/assets/readme/phone_8.jpg" alt="Mobile View 8">
-  </div>
-  <div class="gallery-item">
-    <img src="./src/assets/readme/phone_9.jpg" alt="Mobile View 9">
-  </div>
-  <div class="gallery-item">
-    <img src="./src/assets/readme/phone_10.jpg" alt="Mobile View 10">
-  </div>
-</div>
-
-<hr style="margin: 30px 0;">
-
-### Tablet View
-
-<div class="tablet-container">
-  <div class="gallery-item">
-    <img src="./src/assets/readme/tab_1.jpeg" alt="Tablet View 1">
-  </div>
-  <div class="gallery-item">
-    <img src="./src/assets/readme/tab_2.jpeg" alt="Tablet View 2">
-  </div>
-  <div class="gallery-item">
-    <img src="./src/assets/readme/tab_3.jpeg" alt="Tablet View 3">
-  </div>
-</div>
-
-<hr style="margin: 30px 0;">
-
-### Desktop View
-
-<div class="web-container">
-  <div class="gallery-item">
-    <img src="./src/assets/readme/web_1.jpeg" alt="Desktop View 1">
-  </div>
-  <div class="gallery-item">
-    <img src="./src/assets/readme/web_2.jpeg" alt="Desktop View 2">
-  </div>
-  <div class="gallery-item">
-    <img src="./src/assets/readme/web_3.jpeg" alt="Desktop View 3">
-  </div>
-  <div class="gallery-item">
-    <img src="./src/assets/readme/web_4.jpeg" alt="Desktop View 4">
-  </div>
-  <div class="gallery-item">
-    <img src="./src/assets/readme/web_5.jpeg" alt="Desktop View 5">
-  </div>
-  <div class="gallery-item">
-    <img src="./src/assets/readme/web_6.jpeg" alt="Desktop View 6">
-  </div>
-  <div class="gallery-item">
-    <img src="./src/assets/readme/web_7.jpeg" alt="Desktop View 7">
-  </div>
-  <div class="gallery-item">
-    <img src="./src/assets/readme/web_8.jpeg" alt="Desktop View 8">
-  </div>
-</div>
+| Mobile View 1 | Mobile View 2 | Mobile View 3 | Mobile View 4 | Mobile View 5 |
+| :------------:| :------------:| :------------:| :------------:| :------------:|
+| ![Mobile View 1](./src/assets/readme/phone_1.jpg) | ![Mobile View 2](./src/assets/readme/phone_2.jpg) | ![Mobile View 3](./src/assets/readme/phone_3.jpg) | ![Mobile View 4](./src/assets/readme/phone_4.jpg) | ![Mobile View 5](./src/assets/readme/phone_5.jpg) |
+| Mobile View 6 | Mobile View 7 | Mobile View 8 | Mobile View 9 | Mobile View 10 |
+| ![Mobile View 6](./src/assets/readme/phone_6.jpg) | ![Mobile View 7](./src/assets/readme/phone_7.jpg) | ![Mobile View 8](./src/assets/readme/phone_8.jpg) | ![Mobile View 9](./src/assets/readme/phone_9.jpg) | ![Mobile View 10](./src/assets/readme/phone_10.jpg) |
 
 ---
 
-This README provides an overview of PlannerPulse, detailing its features, technologies used, how to launch the application, and screenshots showcasing its mobile, tablet, and desktop views.
+### Tablet View
+
+| Tablet View 1 | Tablet View 2 | Tablet View 3 |
+| :------------:| :------------:| :------------:|
+| ![Tablet View 1](./src/assets/readme/tab_1.jpeg) | ![Tablet View 2](./src/assets/readme/tab_2.jpeg) | ![Tablet View 3](./src/assets/readme/tab_3.jpeg) |
+
+---
+
+### Desktop View
+
+| Desktop View 1 | Desktop View 2 | Desktop View 3 | Desktop View 4 |
+| :-------------:| :-------------:| :-------------:| :-------------:|
+| ![Desktop View 1](./src/assets/readme/web_1.jpeg) | ![Desktop View 2](./src/assets/readme/web_2.jpeg) | ![Desktop View 3](./src/assets/readme/web_3.jpeg) | ![Desktop View 4](./src/assets/readme/web_4.jpeg) |
+| Desktop View 5 | Desktop View 6 | Desktop View 7 | Desktop View 8 |
+| ![Desktop View 5](./src/assets/readme/web_5.jpeg) | ![Desktop View 6](./src/assets/readme/web_6.jpeg) | ![Desktop View 7](./src/assets/readme/web_7.jpeg) | ![Desktop View 8](./src/assets/readme/web_8.jpeg) |
