@@ -1,70 +1,148 @@
-# Getting Started with Create React App
+Certainly! Here's your formatted README with corrected spelling and grammar:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+# PlannerPulse
 
-In the project directory, you can run:
+A todo application to manage daily tasks.
 
-### `npm start`
+## Demo Link
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Visit the [PlannerPulse Demo](https://plannerpulse-assignment.vercel.app/) to see the application in action.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Basic Outline
 
-### `npm test`
+- [x] Create a new task
+- [x] Delete a task
+- [x] Edit a task
+- [x] Mark a task as complete
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technology Used
 
-### `npm run build`
+- [x] React
+- [x] Redux Toolkit and React Redux (for state management)
+- [x] Material UI
+- [x] LocalStorage (as database)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Steps to Launch the Code and Demo
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository.
+2. Run `npm install` to install all dependencies.
+3. Run `npm start` to start the application.
+4. Open your browser and go to `http://localhost:3000/` to view the application.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Screenshots
+<style>
+  .mobile-container, .tablet-container, .web-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .mobile-container>div{
+     width: 25%; 
+  }
+  .tablet-container>div, .web-container>div{
+    width: 40%;
+    }
 
-### `npm run eject`
+  .gallery-item {
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+  }
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+</style>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Mobile View
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<div class="mobile-container">
+  <div class="gallery-item">
+    <img src="./src/assets/readme/phone_1.jpg" alt="Mobile View 1">
+  </div>
+  <div class="gallery-item">
+    <img src="./src/assets/readme/phone_2.jpg" alt="Mobile View 2">
+  </div>
+  <div class="gallery-item">
+    <img src="./src/assets/readme/phone_3.jpg" alt="Mobile View 3">
+  </div>
+  <div class="gallery-item">
+    <img src="./src/assets/readme/phone_4.jpg" alt="Mobile View 4">
+  </div>
+  <div class="gallery-item">
+    <img src="./src/assets/readme/phone_5.jpg" alt="Mobile View 5">
+  </div>
+  <div class="gallery-item">
+    <img src="./src/assets/readme/phone_6.jpg" alt="Mobile View 6">
+  </div>
+  <div class="gallery-item">
+    <img src="./src/assets/readme/phone_7.jpg" alt="Mobile View 7">
+  </div>
+  <div class="gallery-item">
+    <img src="./src/assets/readme/phone_8.jpg" alt="Mobile View 8">
+  </div>
+  <div class="gallery-item">
+    <img src="./src/assets/readme/phone_9.jpg" alt="Mobile View 9">
+  </div>
+  <div class="gallery-item">
+    <img src="./src/assets/readme/phone_10.jpg" alt="Mobile View 10">
+  </div>
+</div>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<hr style="margin: 30px 0;">
 
-## Learn More
+### Tablet View
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<div class="tablet-container">
+  <div class="gallery-item">
+    <img src="./src/assets/readme/tab_1.jpeg" alt="Tablet View 1">
+  </div>
+  <div class="gallery-item">
+    <img src="./src/assets/readme/tab_2.jpeg" alt="Tablet View 2">
+  </div>
+  <div class="gallery-item">
+    <img src="./src/assets/readme/tab_3.jpeg" alt="Tablet View 3">
+  </div>
+</div>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<hr style="margin: 30px 0;">
 
-### Code Splitting
+### Desktop View
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<div class="web-container">
+  <div class="gallery-item">
+    <img src="./src/assets/readme/web_1.jpeg" alt="Desktop View 1">
+  </div>
+  <div class="gallery-item">
+    <img src="./src/assets/readme/web_2.jpeg" alt="Desktop View 2">
+  </div>
+  <div class="gallery-item">
+    <img src="./src/assets/readme/web_3.jpeg" alt="Desktop View 3">
+  </div>
+  <div class="gallery-item">
+    <img src="./src/assets/readme/web_4.jpeg" alt="Desktop View 4">
+  </div>
+  <div class="gallery-item">
+    <img src="./src/assets/readme/web_5.jpeg" alt="Desktop View 5">
+  </div>
+  <div class="gallery-item">
+    <img src="./src/assets/readme/web_6.jpeg" alt="Desktop View 6">
+  </div>
+  <div class="gallery-item">
+    <img src="./src/assets/readme/web_7.jpeg" alt="Desktop View 7">
+  </div>
+  <div class="gallery-item">
+    <img src="./src/assets/readme/web_8.jpeg" alt="Desktop View 8">
+  </div>
+</div>
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This README provides an overview of PlannerPulse, detailing its features, technologies used, how to launch the application, and screenshots showcasing its mobile, tablet, and desktop views.
